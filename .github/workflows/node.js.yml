@@ -28,4 +28,5 @@ jobs:
         cache: 'npm'
     - run: npm install --save three
     - run: npm install --save-dev vite
+    - run: chmod +x node_modules/.bin/vite
     - run: npx vite
